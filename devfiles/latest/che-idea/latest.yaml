@@ -28,8 +28,8 @@ components:
           path: /home/user/.java
       memoryLimit: 8Gi
       memoryRequest: 6Gi
-      cpuLimit: 6000m
-      cpuRequest: 4500m
+      cpuLimit: 2000m
+      cpuRequest: 1500m
       endpoints:
         - name: intellij
           attributes:
