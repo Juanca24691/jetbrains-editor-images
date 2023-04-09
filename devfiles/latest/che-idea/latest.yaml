@@ -26,10 +26,10 @@ components:
           path: /home/user/.jetbrains
         - name: projector-java-configuration
           path: /home/user/.java
-      memoryLimit: 6144Mi
-      memoryRequest: 2048Mi
-      cpuLimit: 2000m
-      cpuRequest: 1500m
+      memoryLimit: 8Gi
+      memoryRequest: 6Gi
+      cpuLimit: 6000m
+      cpuRequest: 4500m
       endpoints:
         - name: intellij
           attributes:
